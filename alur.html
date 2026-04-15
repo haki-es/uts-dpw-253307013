@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alur Pendaftaran – SMKN 1 GEGER</title>
+  <link rel="stylesheet" href="asset/css/style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Penerimaan Peserta Didik Baru (PPDB) 🏫</h1>
+    <p>SMKN 1 GEGER &mdash; Tahun Ajaran 2026/2027</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="alur.html" class="active">Alur Pendaftaran</a>
+    <a href="form.html">Isi Formulir</a>
+  </nav>
+
+  <main>
+    <div class="card">
+      <h2 class="card-title">Alur Pendaftaran Siswa Baru</h2>
+      <p>
+        Berikut adalah langkah-langkah yang harus dilakukan oleh calon peserta didik 
+        untuk mengikuti seleksi penerimaan siswa baru:
+      </p>
+
+      <img 
+        src="asset/img/alur.png" 
+        alt="Ilustrasi Alur Pendaftaran Siswa Baru" 
+        class="alur-img"
+        onerror="this.style.display='none'; document.getElementById('img-placeholder').style.display='flex';"
+      />
+      <div id="img-placeholder" class="alur-img-placeholder" style="display:none;">
+        <span>🖼️</span>
+        <strong>Ilustrasi Alur Pendaftaran</strong>
+        <small>asset/img/alur.png</small>
+      </div>
+
+      <ol class="prosedur">
+        <li>
+          <strong>Buat Akun &amp; Login</strong> &nbsp;— Daftarkan diri Anda melalui portal PPDB online SMKN 1 GEGER menggunakan email aktif dan buat kata sandi yang aman.
+        </li>
+        <li>
+          <strong>Isi Formulir Pendaftaran</strong> &nbsp;— Lengkapi data diri secara lengkap dan benar pada halaman Isi Formulir, termasuk Nama Lengkap, NIK, dan pilih jalur pendaftaran yang sesuai.
+        </li>
+        <li>
+          <strong>Unggah Dokumen Pendukung</strong> &nbsp;— Siapkan dan unggah dokumen yang diperlukan: scan KTP/Kartu Keluarga, rapor terakhir, sertifikat prestasi (jika mendaftar jalur Prestasi), dan foto terbaru.
+        </li>
+        <li>
+          <strong>Verifikasi Berkas oleh Panitia</strong> &nbsp;— Panitia PPDB akan memeriksa kelengkapan dan keabsahan dokumen yang telah Anda unggah dalam kurun waktu yang ditetapkan.
+        </li>
+        <li>
+          <strong>Pengumuman Hasil Seleksi</strong> &nbsp;— Hasil seleksi akan diumumkan melalui portal pada tanggal 05 Juni 2026. Periksa status pendaftaran Anda secara berkala.
+        </li>
+        <li>
+          <strong>Daftar Ulang</strong> &nbsp;— Bagi calon peserta yang dinyatakan lolos, wajib melakukan daftar ulang secara langsung ke sekolah pada tanggal 06–10 Juni 2026 dengan membawa dokumen asli.
+        </li>
+      </ol>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 SMKN 1 GEGER. Terakreditasi A.</p>
+  </footer>
+
+  <div id="toast"></div>
+  <script src="asset/javascript/script.js"></script>
+</body>
+</html>
