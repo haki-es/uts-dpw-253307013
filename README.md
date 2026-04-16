@@ -2,7 +2,7 @@
 
 ## Identitas Mahasiswa
 
-![Manager](asset/img/foto.png)
+<img src="asset/img/foto.png" width="300">
 
 | Field  | Keterangan         |
 |--------|--------------------|
