@@ -2,6 +2,8 @@
 
 ## Identitas Mahasiswa
 
+![Manager](asset/img/foto.png)
+
 | Field  | Keterangan         |
 |--------|--------------------|
 | NIM    | 253307013          |
