@@ -2,7 +2,7 @@
 
 ## Identitas Mahasiswa
 
-<img src="asset/img/foto.png" width="300">
+<img src="asset/img/foto.png" width="200">
 
 | Field  | Keterangan         |
 |--------|--------------------|
